@@ -5,4 +5,5 @@ class Empleado:
         self.salario = salario
         self.cargo = cargo
 
-    def 
+    def __str__(self):
+        return f"Empleado: {self.nombre} {self.apellido}, Salario: {self.salario}, Cargo: {self.cargo}"

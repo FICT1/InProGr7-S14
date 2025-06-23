@@ -12,4 +12,6 @@ class Dao:
     
     def actualizar (self, empleado):
         for empleado in self.lista:
-            
+            if empleado == empleado:
+                self.lista.remove(empleado)
+                self.lista.append(empleado)
