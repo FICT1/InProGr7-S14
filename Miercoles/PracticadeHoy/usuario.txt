@@ -1,3 +1,0 @@
-admin, su clave es: 1234
-admin, su clave es: 1234
-admin, su clave es: 1234
